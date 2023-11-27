@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+base {
+  color: #272727;
+  color: #747474;
+  color: #ff652f;
+  color: #ffe400;
+  color: #14a76c;
+}
+body {
+  color: #ffe400;
+  font-size: 18px;
+}
+.app{
+  background-color: #272727;
+  width: 90%;
+  max-width: 600px;
+  margin: 100px auto 0;
+  border-radius: 10px;
+  padding: 30px;
+}
+.app h1{
+  font-size: 25px;
+  font-weight: 600;
+  border-bottom: 1px solid #ffe400;
+  padding-bottom: 30px;
+  color: #747474;
+}
+.quiz{
+  padding: 20px 0;
+}
+.quiz h2{
+  color: #ffe400;
+  font-size: 18px;
+  font-weight: 600;
+}
+.btn{
+  background: #272727;
+  color: #747474;
+  font-weight: 500;
+  width: 100%;
+  border: 1px solid #ffe400;
+  padding: 10px;
+  margin: 10px 0;
+  text-align: left;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.btn:hover:not([disabled]){
+  color: #ffe400;
+  opacity: 0.7;
+}
+.btn:disabled{
+  cursor: no-drop;
+}
+#next-btn{
+  background: #272727;
+  color: #747474;
+  font-weight: 500;
+  width: 150px;
+  border: 0;
+  display: block;
+  padding: 10px;
+  margin: 20px auto 0;
+  border: 1px solid #ffe400;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.6s;
+  display: none;
+}
+#next-btn:hover{
+  font-size: 19px;
+}
+
+.correct{
+  background-color: #14a76c;
+  color: #ffe400;
+  font-size: 19px;
+}
+.incorrect{
+  background-color: #ff652f;
+}
